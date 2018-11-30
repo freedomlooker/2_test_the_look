@@ -90,10 +90,10 @@ view: order_items {
     sql: ${TABLE}.USER_ID ;;
   }
 
-  measure: count {
-    type: count
-    drill_fields: [detail*]
-  }
+#   measure: count {
+#     type: count
+#     drill_fields: [detail*]
+#   }
 
   # ----- Sets of fields for drilling ------
   set: detail {
