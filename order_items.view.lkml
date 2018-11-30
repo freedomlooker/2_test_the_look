@@ -90,7 +90,7 @@ view: order_items {
     sql: ${TABLE}.USER_ID ;;
   }
 
-#   measure: count_blah_blah {
+#   measure: count_blah_bla {
 #     type: count
 #     drill_fields: [detail*]
 #   }
